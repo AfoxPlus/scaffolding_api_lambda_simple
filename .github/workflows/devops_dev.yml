@@ -30,9 +30,6 @@ jobs:
       run: |
         cat > env.json << EOF
         {
-          "prod": {
-            "MONGODB_URL": "mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@clusterapp.2ozz0.mongodb.net/bd_yalisto_prod"
-          },
           "dev": {
             "MONGODB_URL": "mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@clusterapp.2ozz0.mongodb.net/bd_yalisto_dev"
           }
